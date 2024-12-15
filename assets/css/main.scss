@@ -21,11 +21,11 @@
 }
 
 @mixin dark-appearance {
-  @include theme(#000000, #ebdbb2, #000000, #98971a, #d65d0e)
+  @include theme(#000000, #ffffff, #000000, #66ff66, #9c6cd3)
 }
 
 @mixin light-appearance {
-  @include theme(#fbf1c7, #3c3836, #fbf1c7, #98971a, #d65d0e)
+  @include theme(#ffffff, #000000, #ffffff, #66ff66, #9c6cd3)
 }
 
 body[a="dark"] { @include dark-appearance; }
