@@ -18,7 +18,7 @@
   }
 
   code:not(pre > code) {
-    background-color: $--primary-text-color;
+    background-color: $--visited-link-color !important;
     color: $--bg-color;
   }
 
@@ -32,7 +32,7 @@
 }
 
 @mixin dark-appearance {
-  @include theme(#000000, #ffffff, #000000, #66ff66, #9c6cd3)
+  @include theme(#000000, #ffffff, #55799c, #66ff66, #9c6cd3)
 }
 
 @mixin light-appearance {
